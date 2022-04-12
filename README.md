@@ -6,6 +6,8 @@ The repository for the older Touhou themed RPG, made with jQuerey can be found [
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Hololive belongs to Cover Corporation.
+
 ## Available Scripts
 
 In the project directory, you can run:
