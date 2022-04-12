@@ -1,0 +1,87 @@
+body{
+    background-image: url('result.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header, footer{
+    background-color: #5DDEEB;
+    color: white;
+    line-height: 56px;
+    height: 56px;
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 8px;
+    background-color:#00A9C1;
+    color: #EBFDFF;
+    padding: 8px 16px;
+    margin: 16px 0;
+    font-weight: 700;
+    
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#playerSelect, #waitingArea{
+    margin: 16px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    gap: 8px 0;
+    
+}
+
+.waitAreaContainer, .playerSelectContainer, .playerAreaContainer{
+    margin-top: 16px;
+}
+
+.char-pic img{
+    min-width: 12%;
+    width: 50%;
+}
+.char-card{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #00A9C1;
+    text-align: center;
+    width: 200px
+}
+
+.init, .player{
+    background-color: white;
+}
+
+.wait{
+    background-color: #EBFDFF;
+}
+
+.player,.enemy{
+    margin: 0 auto;
+}
+.enemy{
+    background-color: black;
+    color: #EBFDFF;
+} 
+
+#status{
+    margin-top: 16px;
+}
